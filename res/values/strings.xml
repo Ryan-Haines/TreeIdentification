@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, TreeID!</string>
+    <string name="app_name">Tree Identification</string>
+    <string name="main_title">Tree Identification Guide</string>
+    <string name="new_trees_label">Identify New Tree</string>
+    <string name="previous_trees_label">Previously Identified Trees</string>
+    <string name="about_label">About</string>
+    <string name="about_text">Tree Identification PRO Guide for Android by Ryan Haines. Tree data from http://www.realtimerendering.com/trees/trees.html used with permission.</string>
+    <string name="instruction_text"> Fill out the form as best as you can and you\'ll find which trees match. It\'s better to start with a few characteristics you are sure about, then add more as needed.</string>
+    <string name="instructions_label">Instructions</string>
+    <string name="about_title">About this guide...</string>
+    <string name="instructions_title">How to use this guide...</string>
+    <string name="identify_results">Identify trees now!</string>
+    <string name="new_tree_title">Identify New Tree</string>
+    <string name="getResultBtn">ResultName</string>
+    <string name="getImgBtn">Images</string>
+    <string name="next">\u003e</string>
+    <string name="prev">\u003c</string>
+</resources>

@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  >
+    <ScrollView 
+    	android:id="@+id/scrollView1" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content">
+    	
+        <LinearLayout 
+        	android:id="@+id/linearLayout1" 
+        	android:layout_height="fill_parent" 
+        	android:orientation="vertical" 
+        	android:layout_width="fill_parent">
+        	
+            <TextView android:text="Needles Per Cluster" 
+    			      android:textSize = "22sp"		
+		    		  android:id="@+id/textView1" 
+		    		  android:layout_width="wrap_content" 
+		    		  android:layout_height="wrap_content">
+    		</TextView>
+    		<RadioGroup
+                android:layout_width="fill_parent"
+      			android:layout_height="wrap_content"
+      			android:orientation="vertical">
+    		<RadioButton android:text="Two" 
+   		    		  android:id="@+id/needles1" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </RadioButton>
+   		    <RadioButton android:text="Three" 
+   		    		  android:id="@+id/needles2" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </RadioButton>
+   		    <RadioButton android:text="Five" 
+   		    		  android:id="@+id/needles3" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </RadioButton>
+   		    <RadioButton android:text="Twelve or more" 
+   		    		  android:id="@+id/needles4" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </RadioButton>
+   		    </RadioGroup>
+    		
+    		
+    		
+    		
+    		<TextView android:text="Single Needles" 
+    			      android:textSize = "22sp"		
+		    		  android:id="@+id/textView1" 
+		    		  android:layout_width="wrap_content" 
+		    		  android:layout_height="wrap_content">
+    		</TextView>
+    		<CheckBox android:text="Needles 4-angled in cross-section" 
+   		    		  android:id="@+id/singles1" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="On peg-like bases, twigs remain rough even after needles removed" 
+   		    		  android:id="@+id/singles2" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Round needle-scars on twig, twigs rather smooth after needles removed" 
+   		    		  android:id="@+id/singles3" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Some needles scale-like" 
+   		    		  android:id="@+id/singles4" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Some needles 3-angled (V) in cross-section" 
+   		    		  android:id="@+id/singles5" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+    		
+   		    
+   		    <TextView android:text="Length of Needles" 
+    			      android:textSize = "22sp"		
+		    		  android:id="@+id/textView1" 
+		    		  android:layout_width="wrap_content" 
+		    		  android:layout_height="wrap_content">
+    		</TextView>
+    		<RadioGroup
+                android:layout_width="fill_parent"
+      			android:layout_height="wrap_content"
+      			android:orientation="vertical">
+   		    <RadioButton android:text="1 inch or less" 
+   		    		  android:id="@+id/length1" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </RadioButton>
+   		    <RadioButton android:text="1 to 2 inches" 
+   		    		  android:id="@+id/length2" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </RadioButton>
+   		    <RadioButton android:text="1.5 to 3 inches" 
+   		    		  android:id="@+id/length3" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </RadioButton>
+   		    <RadioButton android:text="3 inches or more" 
+   		    		  android:id="@+id/length4" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </RadioButton>
+   		    </RadioGroup>
+    		
+   		    <TextView android:text="Flattened Needles" 
+    			      android:textSize = "22sp"		
+		    		  android:id="@+id/textView1" 
+		    		  android:layout_width="wrap_content" 
+		    		  android:layout_height="wrap_content">
+    		</TextView>
+    		<RadioGroup
+                android:layout_width="fill_parent"
+      			android:layout_height="wrap_content"
+      			android:orientation="vertical">
+   		    <RadioButton android:text="Flattened needles have 2 white lines beneath" 
+   		    		  android:id="@+id/flattened1" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </RadioButton>
+   		    <RadioButton android:text="Flattened needles have no white lines beneath" 
+   		    		  android:id="@+id/flattened2" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </RadioButton>
+   		    </RadioGroup>
+    		
+   		    <TextView android:text="Length of Cones" 
+    			      android:textSize = "22sp"		
+		    		  android:id="@+id/textView1" 
+		    		  android:layout_width="wrap_content" 
+		    		  android:layout_height="wrap_content">
+    		</TextView>
+    		<RadioGroup
+                android:layout_width="fill_parent"
+      			android:layout_height="wrap_content"
+      			android:orientation="vertical">
+   		    <RadioButton android:text="1 inch or less" 
+   		    		  android:id="@+id/coneLength1" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </RadioButton>
+   		    <RadioButton android:text="1 - 2 inches" 
+   		    		  android:id="@+id/coneLength2" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </RadioButton>
+   		    <RadioButton android:text="1.5 - 3 inches" 
+   		    		  android:id="@+id/coneLength3" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </RadioButton>
+   		    <RadioButton android:text="over 3 inches" 
+   		    		  android:id="@+id/coneLength4" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </RadioButton>
+   		    </RadioGroup>
+    		
+   		    
+   		    <TextView android:text="Fruit" 
+    			      android:textSize = "22sp"		
+		    		  android:id="@+id/textView1" 
+		    		  android:layout_width="wrap_content" 
+		    		  android:layout_height="wrap_content">
+    		</TextView>
+    		<CheckBox android:text="Conifer fruit is Berry-like" 
+   		    		  android:id="@+id/fruit1" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Fruit is an acorn" 
+   		    		  android:id="@+id/fruit2" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Fruit is a capsule" 
+   		    		  android:id="@+id/fruit3" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Fruit is winged" 
+   		    		  android:id="@+id/fruit4" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Fruit is a catkin" 
+   		    		  android:id="@+id/fruit5" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Fruit is seed like or a prickley ball" 
+   		    		  android:id="@+id/fruit6" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Fruit is a nut" 
+   		    		  android:id="@+id/fruit7" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Fruit is a pod" 
+   		    		  android:id="@+id/fruit8" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Deciduous fruit is berry-like or fleshy" 
+   		    		  android:id="@+id/fruit9" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+    		
+    		<TextView android:text="Thorns" 
+    			      android:textSize = "22sp"		
+		    		  android:id="@+id/textView1" 
+		    		  android:layout_width="wrap_content" 
+		    		  android:layout_height="wrap_content">
+    		</TextView>
+    		<CheckBox android:text="Tree has thorns" 
+   		    		  android:id="@+id/thorns1" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+    		
+    		<TextView android:text="Leaf Edges" 
+    			      android:textSize = "22sp"		
+		    		  android:id="@+id/textView1" 
+		    		  android:layout_width="wrap_content" 
+		    		  android:layout_height="wrap_content">
+    		</TextView>
+    		<RadioGroup
+                android:layout_width="fill_parent"
+      			android:layout_height="wrap_content"
+      			android:orientation="vertical">
+   		    <RadioButton android:text="Leaf edges are untoothed (no small teeth)" 
+   		    		  android:id="@+id/leafEdge1" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </RadioButton>
+   		    <RadioButton android:text="Leaf edges are saw-toothed" 
+   		    		  android:id="@+id/leafEdge2" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </RadioButton>
+   		    </RadioGroup>
+    		
+    		<TextView android:text="Leaf Arrangement on Twig" 
+    			      android:textSize = "22sp"		
+		    		  android:id="@+id/textView1" 
+		    		  android:layout_width="wrap_content" 
+		    		  android:layout_height="wrap_content">
+    		</TextView>
+    		<RadioGroup
+                android:layout_width="fill_parent"
+      			android:layout_height="wrap_content"
+      			android:orientation="vertical">
+   		    <RadioButton android:text="Leaf Arrangement is opposite" 
+   		    		  android:id="@+id/leafArrangement1" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </RadioButton>
+   		    <RadioButton android:text="Leaf Arrangement is alternate" 
+   		    		  android:id="@+id/leafArrangement2" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </RadioButton>
+   		    </RadioGroup>
+    		
+    		<TextView android:text="Simple Leaves Only" 
+    			      android:textSize = "22sp"		
+		    		  android:id="@+id/textView1" 
+		    		  android:layout_width="wrap_content" 
+		    		  android:layout_height="wrap_content">
+    		</TextView>
+    		<CheckBox android:text="Leaves have a heart-shaped base" 
+   		    		  android:id="@+id/simple1" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Leaves have a convex V-shaped base" 
+   		    		  android:id="@+id/simple2" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Leaves have a fairly equal, straight base" 
+   		    		  android:id="@+id/simple3" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Leaves have a lopsided base" 
+   		    		  android:id="@+id/simple4" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Leaves are about as long as broad" 
+   		    		  android:id="@+id/simple5" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Leaves are about 1 1/2-3 times as long as broad" 
+   		    		  android:id="@+id/simple6" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Leaves are more than 3 times as long as broad" 
+   		    		  android:id="@+id/simple7" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Leaves are not lobed" 
+   		    		  android:id="@+id/simple8" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Leaves have palmate lobes" 
+   		    		  android:id="@+id/simple9" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Leaves have pinnate lobes with bristle tips" 
+   		    		  android:id="@+id/simple10" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Leaves have pinnate round lobes" 
+   		    		  android:id="@+id/simple11" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>
+   		    <CheckBox android:text="Leaves have a flat petiole" 
+   		    		  android:id="@+id/simple12" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>	
+    		
+    		<TextView android:text="Compound Leaves Only" 
+    			      android:textSize = "22sp"		
+		    		  android:id="@+id/textView1" 
+		    		  android:layout_width="wrap_content" 
+		    		  android:layout_height="wrap_content">
+    		</TextView>
+    		<CheckBox android:text="Number of pinnate leaflets for compound leaves is mostly 3" 
+   		    		  android:id="@+id/compound1" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>	
+   		    <CheckBox android:text="Number of pinnate leaflets for compound leaves is mostly 5" 
+   		    		  android:id="@+id/compound2" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>	
+   		    <CheckBox android:text="Number of pinnate leaflets for compound leaves is mostly 7-9" 
+   		    		  android:id="@+id/compound3" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>	
+   		    <CheckBox android:text="Number of pinnate leaflets for compound leaves is 10 or more" 
+   		    		  android:id="@+id/compound4" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>	
+   		    <CheckBox android:text="Compound leaves have palmate leaflets" 
+   		    		  android:id="@+id/compound5" 
+   		    		  android:layout_width="wrap_content" 
+   		    		  android:layout_height="wrap_content">
+   		    </CheckBox>	
+    		
+   		    <LinearLayout 
+        	android:id="@+id/resultButtonContainer" 
+        	android:layout_height="fill_parent" 
+        	android:orientation="vertical" 
+        	android:layout_width="wrap_content">
+   		    </LinearLayout>
+   		    
+   		    <LinearLayout 
+        	android:id="@+id/resultButtons" 
+        	android:layout_height="fill_parent" 
+        	android:orientation="horizontal" 
+        	android:layout_width="wrap_content"
+        	android:layout_weight="1">
+        	
+	        	<Button
+	        	    	android:id="@+id/TreeName"
+	        	    	android:text="Need to set text!"
+	        	    	android:layout_width="wrap_content"
+            			android:layout_height="wrap_content"
+            			android:visibility="gone">
+	        	</Button>
+	        	
+	        	<Button
+	        	    	android:id="@+id/ImageSearch"
+	        	    	android:text="Need to set text!"
+	        	    	android:layout_toRightOf="@id/TreeName"
+	        	    	android:layout_width="wrap_content"
+            			android:layout_height="wrap_content"
+            			android:visibility="gone">
+	        	</Button>
+        	    	
+        	
+   		    </LinearLayout>
+   		    
+   		    
+    		<Button android:layout_width="fill_parent" 
+	    		android:text="@string/identify_results" 
+	    		android:layout_height="wrap_content" 
+	    		android:id="@+id/id_trees_button"
+	    		android:tag="@string/identify_results"
+	    		android:layout_gravity="bottom">
+	    	</Button>
+	    	
+    		
+   		    
+    		<View
+        		android:layout_width="fill_parent"
+        		android:layout_height="60dp">
+    		</View>
+	    	  
+	    	
+   		    
+	    	<!-- 
+	    	<EditText
+                android:id="@+id/results"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lines="15"
+                android:scrollbars="vertical"
+                android:text="" 
+                android:inputType="textMultiLine"/>  
+	    	 -->
+		</LinearLayout>
+    </ScrollView>   
+</LinearLayout>
